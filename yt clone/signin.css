@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: inherit;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: white;
+}
+.container {
+    width: 100%;
+    max-width: 400px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 1), 0 0 100px rgba(2, 255, 61, 0.6);
+    padding: 20px;
+    transition: box-shadow 0.3s ease;
+    padding: 30px;
+
+}
+
+.container:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 2), 0 0 100px rgb(1, 230, 255);
+}
+
+.login-box {
+    text-align: center;
+}
+
+.logo {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #202124;
+    margin-bottom: 8px;
+}
+
+p {
+    font-size: 14px;
+    color: #5f6368;
+    margin-bottom: 20px;
+}
+
+.input-field {
+    margin-bottom: 20px;
+}
+
+.input-field input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.links {
+    margin-bottom: 20px;
+}
+
+.links a {
+    color: #1a73e8;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.guest-mode {
+    font-size: 12px;
+    color: #5f6368;
+    margin-bottom: 20px;
+}
+
+.guest-mode a {
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+.guest-mode a:hover {
+    text-decoration: underline;
+}
+
+.actions {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.create-account {
+    font-size: 14px;
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+.create-account:hover {
+    text-decoration: underline;
+}
+.next-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.next-btn:hover {
+    background-color: #0056b3;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.8);
+}
