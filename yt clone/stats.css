@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: inherit;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #000000; /* Subtle light gray background */
+    color: #333; 
+}
+
+.stats-container {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.stat-card {
+    background-color:#222;
+    border-radius: 12px;
+    box-shadow: 0 0 20px 4px rgba(0, 123, 255, 0.15); /* Subtle glow effect */
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    transition: 0.3s ease;
+}
+
+
+.stat-card:hover {
+    box-shadow: 0 0 5px 10px rgb(255, 255, 255); /* Stronger glow on hover */
+    scale: 1.01;
+}
+
+.stat-image {
+    width: 50%;
+    max-width: 350px;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px 0 0 12px; 
+}
+#mb{
+    width: 250px;
+    height: 200px;
+}
+
+.stat-info {
+    margin-left:100px ;
+    padding: 20px;
+    width: 50%;
+    text-align: left;
+    background-color: #222;
+    color: white;
+   
+}
+.si1{
+    margin-left:100px ;
+    padding: 20px;
+    width: 50%;
+    text-align: left;
+    background-color:#222;
+    color: white;
+    text-decoration: none;
+}
+.si1 h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: white;
+}
+.si1 p {
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: rgb(187, 182, 182);
+    margin-right: 10px;
+}
+.stat-info h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color:white;
+}
+
+.stat-info p {
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.6;
+    color:rgb(255, 246, 246);
+}
