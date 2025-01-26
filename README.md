@@ -2,6 +2,8 @@
 
 This is a **YouTube Clone** project built to showcase my front-end development skills. It closely replicates YouTube's user interface using **HTML**, **CSS**, and **JavaScript**. The project includes a homepage, video page, login page, and a stats page, all designed from scratch to mimic YouTube's features while showcasing my ability to work with front-end technologies.
 
+> **Disclaimer**: This project is a non-commercial clone for educational and portfolio purposes only. It does not aim to replicate YouTube for monetization purposes. All YouTube video content, thumbnails, and logos are the property of **YouTube** and are used solely for demonstration purposes in this project. No content from YouTube is hosted or owned by me.
+
 ## Features
 
 - **Homepage**: A YouTube-like main page, featuring a navigation bar, video thumbnails, and interactive elements.
