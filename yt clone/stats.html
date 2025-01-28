@@ -8,22 +8,30 @@
     <link rel="stylesheet" href="stats.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap');
-        </style>
+    </style>
 </head>
 <body>
     <div class="stats-container">
         <h1>YouTube Stats</h1>
 
-    
+        <button id="theme-toggle">
+            <!-- Default SVG for Light Mode -->
+            <svg id="light-svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-moon-fill" viewBox="0 0 16 16">
+                <path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"/>
+              </svg>
+              
+        </button>
+        
+
+  
         <div class="stat-card">
-        <img src="thumb/1.avif" alt="Most subscribers" class="stat-image">
+            <img src="thumb/1.avif" alt="Most subscribers" class="stat-image">
             <div class="si1">
                 <h2>No. 1 YouTuber with Most Subscribers</h2>
                 <p><a href="https://www.youtube.com/results?search_query=mr+beast" style="color: azure;">Mr Beast</a> holds the title of the most subscribed individual creator with over 366 million subscribers.</p>
             </div>
         </div>
 
-        
         <div class="stat-card">
             <img src="thumb/vid.webp" alt="Most Viewed Video" class="stat-image">
             <div class="stat-info">
@@ -32,7 +40,6 @@
             </div>
         </div>
 
-       
         <div class="stat-card">
             <img src="thumb/like.avif" alt="Most Liked Video" class="stat-image">
             <div class="stat-info">
@@ -41,16 +48,14 @@
             </div>
         </div>
 
-        
         <div class="stat-card">
             <img src="thumb/2.7 billion.png" alt="Total Users" class="stat-image">
             <div class="stat-info">
                 <h2>Total Number of Users on YouTube</h2>
-                <p>YouTube boasts over 2.7 billion active users worldwide  as of 2024.</p>
+                <p>YouTube boasts over 2.7 billion active users worldwide as of 2024.</p>
             </div>
         </div>
 
-    
         <div class="stat-card">
             <img src="thumb/str.avif" alt="Most Viewed Livestream" class="stat-image">
             <div class="stat-info">
@@ -59,15 +64,14 @@
             </div>
         </div>
 
-      
         <div class="stat-card">
             <img src="thumb/vs.png" alt="Streamer of the Year" class="stat-image">
             <div class="stat-info">
                 <h2>Total No Of Videos Posted On YouTube</h2>
-                <p>There are approximately 3.9 billion videos on YouTube, of which 826 million are YouTube Shorts..</p>
+                <p>There are approximately 3.9 billion videos on YouTube, of which 826 million are YouTube Shorts.</p>
             </div>
         </div>
-
     </div>
+  <script src="stats.js"></script>
 </body>
 </html>
