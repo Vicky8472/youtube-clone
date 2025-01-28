@@ -10,19 +10,22 @@ This is a **YouTube Clone** project built to showcase my front-end development s
 - **Video Page**: A dedicated video page designed exactly like YouTube's video page. It includes a video player for the first video, with other videos embedded via YouTube's embed method. This page also includes sections for comments, related videos, and other YouTube-like features.
 - **Login Page**: A login page without backend functionality. When the user clicks "Sign In" without entering their email, they are redirected to the homepage with a profile icon instead of the sign-in button.
 - **Stats Page**: A custom-built stats page, not available in the original YouTube, that shows information like the most viewed video, most liked video, and more.
+- **Mobile Responsiveness**: All pages are fully responsive. On mobile devices, the site is designed to open in desktop site mode for better viewing experience.
+- **Dark/Light Mode**: The stats page includes a dark/light mode toggle implemented using JavaScript, allowing users to switch between the two modes.
+- **Like/Dislike on Video Page**: Users can like or dislike a video on the video page. The like/dislike count updates dynamically using JavaScript.
 
 ## Technologies Used
 
 - **HTML**: For structuring the content and layout of the pages.
 - **CSS**: For styling and creating a visually appealing, responsive design.
-- **JavaScript**: For handling user interactions (e.g., scroll alerts, sign-in flow, etc.) and managing the behavior of the pages.
+- **JavaScript**: For handling user interactions (e.g., scroll alerts, sign-in flow, like/dislike functionality, and dark/light mode toggle).
 
 ## User Flow
 
 1. **Homepage**: The homepage features a "Sign In" button in the navigation bar. When clicked, it takes the user to the login page.
 2. **Login Page**: The login page asks the user for their email. If the user clicks the sign-in button without entering an email, they are redirected to the homepage, and the "Sign In" button is replaced with a profile icon in the navbar.
-3. **Video Page**: The video page is a close clone of YouTube’s video page, designed entirely by me. It includes a video player for the first video (which works fully), and other videos are embedded using YouTube’s embed method. This page also replicates YouTube’s layout with sections for comments, related videos, and more.
-4. **Stats Page**: This custom-built page shows various statistics like the most viewed and liked videos, providing additional features not available on the original YouTube site.
+3. **Video Page**: The video page is a close clone of YouTube’s video page, designed entirely by me. It includes a video player for the first video (which works fully), and other videos are embedded using YouTube’s embed method. This page also replicates YouTube’s layout with sections for comments, related videos, and more. Additionally, users can like or dislike the video, and the count changes dynamically.
+4. **Stats Page**: This custom-built page shows various statistics like the most viewed and liked videos, providing additional features not available on the original YouTube site. It also includes a dark/light mode toggle that can be switched using JavaScript.
 
 ## How to Run the Project
 
