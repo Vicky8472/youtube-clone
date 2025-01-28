@@ -127,3 +127,71 @@ p {
     background-color: #0056b3;
     box-shadow: 0 0 10px rgba(0, 123, 255, 0.8);
 }
+
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+        height: auto;
+    }
+
+    .container {
+        width: 90%;
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    .input-field input {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .next-btn {
+        padding: 12px 25px;
+        font-size: 14px;
+    }
+
+    .actions {
+        flex-direction: column;
+        gap: 15px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .container {
+        width: 95%;
+        padding: 15px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    .input-field input {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .next-btn {
+        width: 100%;
+        padding: 12px;
+        font-size: 14px;
+    }
+
+    .links a,
+    .guest-mode a,
+    .create-account {
+        font-size: 12px;
+    }
+}
